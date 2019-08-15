@@ -1,7 +1,153 @@
 <!DOCTYPE html>
 <html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+
+<!-- I found a way to use dropbox shared files for hosting. The trick was to replace “?dl=0” with “?raw=1” in the generated link.  --> 
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<head>
+  <!-- A <link> element can occur either in the <head> or <body> element, depending on whether it has a link type that is body-ok. For example, the stylesheet link type is body-ok, and therefore <link rel="stylesheet"> is permitted in the body. However, this isn't a good practice to follow; it makes more sense to separate your <link> elements from your body content, putting them in the <head> -->
+  <!-- rel:  the value denotes how the item being linked to is related to the containing document -->
+  <!-- href specifies the url -->
+  <link href="https://fonts.googleapis.com/css?family=Libre+Caslon+Text&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+
+</head>  
+
+<!-- START NAV -->
+
+<nav id="navbar" class="nav">
+  <ul class="nav-list">
+    <li>
+      <a href="#welcome-section">About</a>
+    </li>
+    <li>
+      <a href="#projects">Work</a>
+    </li>
+    <li>
+      <a href="#contact">Contact</a>
+    </li>
+  </ul>
+</nav>
+
+<!-- END NAV -->
+ 
+<!-- START WELCOME SECTION -->
+
+<section id="welcome-section" class="welcome-section">
+  <h1>Hi I am Leman</h1>
+  <p>an aspiring software developer</p>
+</section>
+
+<!-- END WELCOME SECTION -->
+
+<!-- START PROJECTS SECTION -->
+
+<section id="projects" class="projects-section">
+  <h2 class="projects-section-header">These are some of my projects</h2>
+
+  <div class="projects-grid">
+    <!-- Wrap up the pic and the text as a clickable link -->
+    <a
+      href="https://codepen.io/Solepride/full/VJNdXg"
+      target="_blank"
+      class="project project-tile"
+    >
+      <img
+        class="project-image"
+        src="https://www.dropbox.com/s/47xyq5n7dfk2h9o/steve-irwin-pic.PNG?raw=1"
+        alt="project"
+      />
+      <p class="project-title">
+        <!-- you should use divs as dividers of blocks, and spans for marking inline content -->
+        <span class="code">&lt;</span>
+        Tribute Page
+        <span class="code">&#47;&gt;</span>
+      </p>
+    </a>
+    <a
+      href="https://codepen.io/Solepride/full/oKNVbW"
+      target="_blank"
+      class="project project-tile"
+    >
+      <img
+        class="project-image"
+        src="https://www.dropbox.com/s/bafts3ikexmzl4h/survey-form-pic.PNG?raw=1"
+        alt="project"
+      />
+      <p class="project-title">
+        <span class="code">&lt;</span>
+        Survey Form Page
+        <span class="code">&#47;&gt;</span>
+      </p>
+    </a>
+    <a
+      href="https://codepen.io/Solepride/full/RXrXRZ"
+      target="_blank"
+      class="project project-tile"
+    >
+      <img
+        class="project-image"
+        src="https://www.dropbox.com/s/v72ywbtzvipk6uv/product-landing-page.PNG?raw=1"
+        alt="project"
+      />
+      <p class="project-title">
+        <span class="code">&lt;</span>
+        Product Landing Page
+        <span class="code">&#47;&gt;</span>
+      </p>
+    </a>
+    <a
+      href="https://codepen.io/Solepride/full/NQaNLN"
+      target="_blank"
+      class="project project-tile"
+    >
+      <img
+        class="project-image"
+        src="https://www.dropbox.com/s/asbfbveh1hftvn1/technical-documentation-page.PNG?raw=1"
+        alt="project"
+      />
+      <p class="project-title">
+        <span class="code">&lt;</span>
+        Technical Documentation Page
+        <span class="code">&#47;&gt;</span>
+      </p>
+    </a>
+</section>
+
+
+<!-- END PROJECTS SECTION -->
+
+<!-- START CONTACT SECTION -->
+
+<section id="contact" class="contact-section">
+  <div class="contact-section-header">
+    <h2>Let's work together...</h2>
+  </div>
+  <div class="contact-links">
+    <a
+      id="profile-link"
+      href="https://github.com/leman-y"
+      target="_blank"
+      class="btn contact-details"
+      ><i class="fab fa-github"></i> GitHub</a
+    >
+    <a
+      href="www.linkedin.com/in/leman-yan"
+      target="_blank"
+      class="btn contact-details"
+      ><i class="fab fa-twitter"></i> LinkedIn</a
+    >
+<!--
+    <a href="mailto:example@example.com" class="btn contact-details"
+      ><i class="fas fa-at"></i> Send a mail</a
+    >
+-->
+  </div>
+</section>
+
+<!-- END CONTACT SECTION -->
+
+
+
+
 </html>

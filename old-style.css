@@ -1,3 +1,17 @@
+/*
+To do:
+-Scratch this template out
+-I want to make it more modern with an azure backgroun
+-Kinda looks unprofessional right now
+-I want to make it look better
+-https://www.squarespace.com/templates/portfolio
+-Use squarespace as an influence
+-Joshua Fluke's video on portfolio
+-Remove everything and take what is necessary
+-https://www.rapidtables.com/web/color/RGB_Color.html choose a color that wont hurt your eyes
+  look at the website without flex on b/c the viewer will most likely not have flex
+
+*/
 
 /*
 body
@@ -77,7 +91,7 @@ body {
   line-height: 1.5;
   font-size: 1.8rem; /* 18px */
   font-weight: 400;
-  color: white;
+  color: rgb(240,255,255);
 }
 
 h1,
@@ -165,7 +179,7 @@ img {
   font-size: 3rem;
   font-weight: 200;
   font-style: italic;
-  color: #00BFFF	;
+  color: #00BFFF  ;
   
 }
 
@@ -174,7 +188,7 @@ img {
 .projects-section {
   text-align: center;
   padding: 10rem 2rem;
-  background: #3e64ff	;
+  background: #3e64ff ;
 }
 
 .projects-section-header {

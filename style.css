@@ -13,9 +13,70 @@ To do:
 
 */
 
+/*
+ Universal Selector * (all elements)
+
+Applies style properties to all individual elements.
+Replaces inherited style properties, and default 'initial values'. Blocks inheritance.
+*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body
 {
   font-family: 'Libre Caslon Text', serif;
   line-height: 1.5;
-  color: rgb(240,255,255);
+/*  color: rgb(240,255,255); */
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+/* nav */
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+ /* background: var(--main-red); */
+  background-color: #00BFFF;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+  z-index: 10;
+}
+
+.nav-list {
+  display: flex;
+  margin-right: 2rem;
+}
+
+@media (max-width: 28.75em) {
+  .nav {
+    justify-content: center;
+  }
+
+  .nav-list {
+    margin: 0 1rem;
+  }
+}
+
+.nav-list a {
+  display: block;
+  font-size: 2.2rem;
+  padding: 2rem;
+}
+
+.nav-list a:hover {
+  background: var(--main-blue);
 }

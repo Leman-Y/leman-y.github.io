@@ -10,6 +10,7 @@ To do:
 -Remove everything and take what is necessary
 -https://www.rapidtables.com/web/color/RGB_Color.html choose a color that wont hurt your eyes
   look at the website without flex on b/c the viewer will most likely not have flex
+- Make the nav bar transparent and the nav items the color black
 
 */
 
@@ -31,14 +32,20 @@ body
 /*  color: rgb(240,255,255); */
 }
 
+ul {
+  /* Removes the bulleting of lists*/
+  list-style: none;
+}
+
 a {
+  /* Removes the hyperlink and the blue color for links */
   text-decoration: none;
   color: white;
 }
 
 img {
-  display: block;
-  width: 100%;
+  display: block; /* Take up a new line */
+  width: 100%;  /* Take up 100% width of the entire page */
 }
 
 /* nav */

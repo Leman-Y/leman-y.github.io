@@ -40,7 +40,7 @@ ul {
 a {
   /* Removes the hyperlink and the blue color for links */
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 img {
@@ -58,7 +58,8 @@ img {
   left: 0;
   width: 100%;
  /* background: var(--main-red); */
-  background-color: #00BFFF;
+ /* background-color: #00BFFF; */
+ background-color: transparent;
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
   z-index: 10;
 }

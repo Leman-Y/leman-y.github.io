@@ -115,7 +115,7 @@ img {
 .projects-section {
   text-align: center;
   padding: 10rem 2rem;
-  background: #3e64ff ;
+  background: #F0FFFF   ;
 }
 
 .projects-section-header {
@@ -195,6 +195,7 @@ img {
   height: 50vh;
   padding: 0 2rem;
   background: black;
+  color: white;
 }
 
 .contact-section-header > h2 {
@@ -218,12 +219,16 @@ img {
   max-width: 980px;
   margin-top: 4rem;
   flex-wrap: wrap;
+  color: white;
+
 }
 
 .contact-details {
   font-size: 2.4rem;
   text-shadow: 2px 2px 1px #1f1f1f;
   transition: transform 0.3s ease-out;
+  color: white;
+
 }
 
 .contact-details:hover {

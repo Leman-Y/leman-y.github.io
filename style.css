@@ -123,7 +123,7 @@ img {
 
 .interests-section
 {
-  list-style: circle;
+  list-style-type: circle;
   text-align: center;
 
 

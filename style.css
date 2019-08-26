@@ -11,7 +11,7 @@ To do:
 -https://www.rapidtables.com/web/color/RGB_Color.html choose a color that wont hurt your eyes
   look at the website without flex on b/c the viewer will most likely not have flex
 - Make the nav bar transparent and the nav items the color black
-
+-what is wrong with interests section? where are my bullet points?
 */
 
 /*
@@ -32,10 +32,7 @@ body
 /*  color: rgb(240,255,255); */
 }
 
-ul {
-  /* Removes the bulleting of lists*/
-  list-style: none;
-}
+
 
 a {
   /* Removes the hyperlink and the blue color for links */
@@ -68,6 +65,8 @@ img {
 .nav-list {
   display: flex;
   margin-right: 2rem;
+  list-style: none;
+
 }
 
 @media (max-width: 28.75em) {
@@ -85,6 +84,9 @@ img {
   font-size: 2.2rem;
   padding: 2rem;
 }
+
+
+
 
 .nav-list a:hover {
   background: var(--main-blue);
@@ -116,6 +118,18 @@ img {
   width: 50%;
 
 }
+
+/* Interests Section */
+
+.interests-section
+{
+  list-style: circle;
+  text-align: center;
+
+
+
+}
+
 
 /* Projects section */
 
